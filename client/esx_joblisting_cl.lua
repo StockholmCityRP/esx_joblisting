@@ -32,6 +32,7 @@ function ShowJobListingMenu(data)
 			'default', GetCurrentResourceName(), 'joblisting',
 			{
 				title    = _U('job_center'),
+				align    = 'bottom-right',
 				elements = elements
 			},
 			function(data, menu)
